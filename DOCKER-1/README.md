@@ -11,18 +11,18 @@ command `docker load -i node-image.tar`
  command docker run -d -p ID-CONTAINER
  command docker exec  ID-CONTAINER bash
  command cd FILES IMAGE 
- command EDIT'
+ command EDIT
 
 # run image with more ports
-command 'docker run -d \
+command docker run -d \
   -p 8080:80 \
   -p 8443:443 \
-  IMAGE-NAME'
+  IMAGE-NAME
 
 # run image with random ports 
- command 'docker run -d \
+ command docker run -d \
   -p 80 \
   -p 443 \
-  IMAGE-NAME'
+  IMAGE-NAME
 
  
