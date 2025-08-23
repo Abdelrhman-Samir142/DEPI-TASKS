@@ -7,11 +7,11 @@
 command `docker load -i node-image.tar` 
 
 # Edit Inside nginx Container
-1-'docker build ID-IMAGE'
-2-'docker run -d -p ID-CONTAINER'
-3-'docker exec  ID-CONTAINER bash'
-4-cd FILES IMAGE 
-5- EDIT
+'1-docker build ID-IMAGE
+ 2-docker run -d -p ID-CONTAINER
+ 3-docker exec  ID-CONTAINER bash
+ 4-cd FILES IMAGE 
+ 5- EDIT'
 
 # run image with more ports
 'docker run -d \
